@@ -12,7 +12,11 @@
 <body>
     
     <div id="app">
-        <h1 v-bind:class="hello">{{hello}} We are using Vue</h1>
+        <div :class="flex">
+            <h1 v-bind:class="hello">{{hello}} We are using Vue</h1>
+            <img  v-bind:src="img" alt="">
+        </div>
+
     </div>
 
 

@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(7, 154, 132);
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
